@@ -1,0 +1,302 @@
+[
+    {
+        "asset_id": "A101",
+        "asset_name": "HR-PC-01",
+        "asset_type": "Workstation",
+        "ip_address": "192.168.1.10",
+        "operating_system": "Windows 11",
+        "department": "HR",
+        "risk_level": "Medium",
+        "security_status": "Secure"
+    },
+    {
+        "asset_id": "A102",
+        "asset_name": "Web-Server",
+        "asset_type": "Server",
+        "ip_address": "192.168.1.20",
+        "operating_system": "Ubuntu 22.04",
+        "department": "IT",
+        "risk_level": "Critical",
+        "security_status": "Vulnerable"
+    },
+    {
+        "asset_id": "A103",
+        "asset_name": "Core-Router",
+        "asset_type": "Router",
+        "ip_address": "192.168.1.1",
+        "operating_system": "Cisco IOS",
+        "department": "Network",
+        "risk_level": "High",
+        "security_status": "Warning"
+    },
+    {
+        "asset_id": "A104",
+        "asset_name": "Finance-PC-01",
+        "asset_type": "Workstation",
+        "ip_address": "192.168.2.11",
+        "operating_system": "Windows 11",
+        "department": "Finance",
+        "risk_level": "High",
+        "security_status": "Secure"
+    },
+    {
+        "asset_id": "A105",
+        "asset_name": "Finance-PC-02",
+        "asset_type": "Workstation",
+        "ip_address": "192.168.2.12",
+        "operating_system": "Windows 10",
+        "department": "Finance",
+        "risk_level": "High",
+        "security_status": "Warning"
+    },
+    {
+        "asset_id": "A106",
+        "asset_name": "DB-Server",
+        "asset_type": "Server",
+        "ip_address": "192.168.1.21",
+        "operating_system": "Red Hat Linux 9",
+        "department": "IT",
+        "risk_level": "Critical",
+        "security_status": "Warning"
+    },
+    {
+        "asset_id": "A107",
+        "asset_name": "Mail-Server",
+        "asset_type": "Server",
+        "ip_address": "192.168.1.22",
+        "operating_system": "Windows Server 2019",
+        "department": "IT",
+        "risk_level": "High",
+        "security_status": "Secure"
+    },
+    {
+        "asset_id": "A108",
+        "asset_name": "File-Server",
+        "asset_type": "Server",
+        "ip_address": "192.168.1.23",
+        "operating_system": "Windows Server 2016",
+        "department": "Operations",
+        "risk_level": "High",
+        "security_status": "Vulnerable"
+    },
+    {
+        "asset_id": "A109",
+        "asset_name": "DNS-Server",
+        "asset_type": "Server",
+        "ip_address": "192.168.1.24",
+        "operating_system": "Debian 12",
+        "department": "Network",
+        "risk_level": "Critical",
+        "security_status": "Secure"
+    },
+    {
+        "asset_id": "A110",
+        "asset_name": "Backup-Server",
+        "asset_type": "Server",
+        "ip_address": "192.168.1.25",
+        "operating_system": "Ubuntu 20.04",
+        "department": "IT",
+        "risk_level": "Medium",
+        "security_status": "Warning"
+    },
+    {
+        "asset_id": "A111",
+        "asset_name": "Edge-Router",
+        "asset_type": "Router",
+        "ip_address": "192.168.1.2",
+        "operating_system": "Juniper Junos",
+        "department": "Network",
+        "risk_level": "Critical",
+        "security_status": "Vulnerable"
+    },
+    {
+        "asset_id": "A112",
+        "asset_name": "Branch-Router",
+        "asset_type": "Router",
+        "ip_address": "192.168.3.1",
+        "operating_system": "MikroTik RouterOS",
+        "department": "Network",
+        "risk_level": "Medium",
+        "security_status": "Warning"
+    },
+    {
+        "asset_id": "A113",
+        "asset_name": "Core-Switch",
+        "asset_type": "Switch",
+        "ip_address": "192.168.1.3",
+        "operating_system": "Cisco NX-OS",
+        "department": "Network",
+        "risk_level": "High",
+        "security_status": "Secure"
+    },
+    {
+        "asset_id": "A114",
+        "asset_name": "Floor1-Switch",
+        "asset_type": "Switch",
+        "ip_address": "192.168.1.4",
+        "operating_system": "Cisco IOS",
+        "department": "Network",
+        "risk_level": "Low",
+        "security_status": "Secure"
+    },
+    {
+        "asset_id": "A115",
+        "asset_name": "Floor2-Switch",
+        "asset_type": "Switch",
+        "ip_address": "192.168.1.5",
+        "operating_system": "HP ProCurve",
+        "department": "Network",
+        "risk_level": "Medium",
+        "security_status": "Warning"
+    },
+    {
+        "asset_id": "A116",
+        "asset_name": "DMZ-Switch",
+        "asset_type": "Switch",
+        "ip_address": "192.168.1.6",
+        "operating_system": "Arista EOS",
+        "department": "Network",
+        "risk_level": "High",
+        "security_status": "Vulnerable"
+    },
+    {
+        "asset_id": "A117",
+        "asset_name": "ERP-App",
+        "asset_type": "Application",
+        "ip_address": "10.0.0.10",
+        "operating_system": "SAP S/4HANA",
+        "department": "Finance",
+        "risk_level": "Critical",
+        "security_status": "Warning"
+    },
+    {
+        "asset_id": "A118",
+        "asset_name": "HR-Portal",
+        "asset_type": "Application",
+        "ip_address": "10.0.0.11",
+        "operating_system": "Apache Tomcat 9",
+        "department": "HR",
+        "risk_level": "Medium",
+        "security_status": "Secure"
+    },
+    {
+        "asset_id": "A119",
+        "asset_name": "CRM-App",
+        "asset_type": "Application",
+        "ip_address": "10.0.0.12",
+        "operating_system": "Salesforce",
+        "department": "Sales",
+        "risk_level": "Medium",
+        "security_status": "Secure"
+    },
+    {
+        "asset_id": "A120",
+        "asset_name": "Intranet-Wiki",
+        "asset_type": "Application",
+        "ip_address": "10.0.0.13",
+        "operating_system": "Confluence",
+        "department": "IT",
+        "risk_level": "Low",
+        "security_status": "Secure"
+    },
+    {
+        "asset_id": "A121",
+        "asset_name": "Payment-Gateway",
+        "asset_type": "Application",
+        "ip_address": "10.0.0.14",
+        "operating_system": "Custom Java App",
+        "department": "Finance",
+        "risk_level": "Critical",
+        "security_status": "Secure"
+    },
+    {
+        "asset_id": "A122",
+        "asset_name": "Legacy-Billing",
+        "asset_type": "Application",
+        "ip_address": "10.0.0.15",
+        "operating_system": "Windows XP App",
+        "department": "Finance",
+        "risk_level": "Critical",
+        "security_status": "Vulnerable"
+    },
+    {
+        "asset_id": "A123",
+        "asset_name": "Dev-PC-01",
+        "asset_type": "Workstation",
+        "ip_address": "192.168.4.11",
+        "operating_system": "Ubuntu 22.04",
+        "department": "Engineering",
+        "risk_level": "Medium",
+        "security_status": "Secure"
+    },
+    {
+        "asset_id": "A124",
+        "asset_name": "Dev-PC-02",
+        "asset_type": "Workstation",
+        "ip_address": "192.168.4.12",
+        "operating_system": "macOS Sonoma",
+        "department": "Engineering",
+        "risk_level": "Medium",
+        "security_status": "Secure"
+    },
+    {
+        "asset_id": "A125",
+        "asset_name": "Reception-PC",
+        "asset_type": "Workstation",
+        "ip_address": "192.168.5.10",
+        "operating_system": "Windows 10",
+        "department": "Admin",
+        "risk_level": "Low",
+        "security_status": "Warning"
+    },
+    {
+        "asset_id": "A126",
+        "asset_name": "Sales-PC-01",
+        "asset_type": "Workstation",
+        "ip_address": "192.168.6.11",
+        "operating_system": "Windows 11",
+        "department": "Sales",
+        "risk_level": "Low",
+        "security_status": "Secure"
+    },
+    {
+        "asset_id": "A127",
+        "asset_name": "Sales-PC-02",
+        "asset_type": "Workstation",
+        "ip_address": "192.168.6.12",
+        "operating_system": "Windows 10",
+        "department": "Sales",
+        "risk_level": "Medium",
+        "security_status": "Vulnerable"
+    },
+    {
+        "asset_id": "A128",
+        "asset_name": "SOC-Workstation",
+        "asset_type": "Workstation",
+        "ip_address": "192.168.7.10",
+        "operating_system": "Kali Linux",
+        "department": "Security",
+        "risk_level": "High",
+        "security_status": "Secure"
+    },
+    {
+        "asset_id": "A129",
+        "asset_name": "VPN-Gateway",
+        "asset_type": "Router",
+        "ip_address": "192.168.1.7",
+        "operating_system": "Fortinet FortiOS",
+        "department": "Network",
+        "risk_level": "Critical",
+        "security_status": "Warning"
+    },
+    {
+        "asset_id": "A130",
+        "asset_name": "Test-Server",
+        "asset_type": "Server",
+        "ip_address": "192.168.8.20",
+        "operating_system": "CentOS 7",
+        "department": "Engineering",
+        "risk_level": "Low",
+        "security_status": "Vulnerable"
+    }
+]
