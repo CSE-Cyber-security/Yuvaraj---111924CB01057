@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>To-Do List</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <h1>Today</h1>
+      <p class="date" id="today-date"></p>
+    </header>
+
+    <form id="task-form" class="composer" autocomplete="off">
+      <label for="task-input" class="sr-only">New task</label>
+      <input type="text" id="task-input" placeholder="What needs doing?" maxlength="120">
+      <button type="submit">Add task</button>
+    </form>
+    <p id="form-error" class="error" role="alert" hidden>Type a task before adding it.</p>
+
+    <div class="toolbar">
+      <div class="filters" role="group" aria-label="Filter tasks">
+        <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All <span id="count-all">0</span></button>
+        <button type="button" class="filter" data-filter="pending" aria-pressed="false">Pending <span id="count-pending">0</span></button>
+        <button type="button" class="filter" data-filter="completed" aria-pressed="false">Completed <span id="count-completed">0</span></button>
+      </div>
+    </div>
+
+    <ul id="task-list" class="task-list"></ul>
+    <p id="empty-state" class="empty" hidden></p>
+
+    <footer class="footer">
+      <p id="summary"></p>
+      <button type="button" id="clear-completed" class="text-button">Clear completed</button>
+    </footer>
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
