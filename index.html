@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Password Strength Checker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="card">
+<h1>Password Strength Checker</h1>
+<p class="sub">Your password is checked in your browser and never sent anywhere.</p>
+<label for="pw">Password</label>
+<div class="field">
+<input id="pw" type="password" autocomplete="off" spellcheck="false" placeholder="Type a password">
+<button id="toggle" type="button" aria-pressed="false">Show</button>
+</div>
+<div class="meter" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+<p id="verdict" class="verdict" aria-live="polite">Start typing to see your score</p>
+<dl class="stats">
+<div><dt>Length</dt><dd id="len">0</dd></div>
+<div><dt>Entropy</dt><dd id="ent">0 bits</dd></div>
+<div><dt>Time to crack</dt><dd id="crack">-</dd></div>
+</dl>
+<ul id="rules" class="rules">
+<li data-rule="length">At least 12 characters</li>
+<li data-rule="lower">A lowercase letter</li>
+<li data-rule="upper">An uppercase letter</li>
+<li data-rule="number">A number</li>
+<li data-rule="symbol">A symbol such as ! @ # $</li>
+<li data-rule="common">Not a common password or pattern</li>
+</ul>
+<p id="tips" class="tips"></p>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
